@@ -1,7 +1,12 @@
 import "./App.css";
+import HerSection from "./components/HeroSection/HerSection";
 
 function App() {
-  return <div className="App">d</div>;
+  return (
+    <>
+      <HerSection />
+    </>
+  );
 }
 
 export default App;
