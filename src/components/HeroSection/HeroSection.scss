@@ -1,0 +1,54 @@
+@import "../../common/styles.scss";
+.HerSection {
+    background: url("../../asset/background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("../../asset/stars.gif");
+
+        z-index: 100;
+    }
+    .inner__content {
+        .hero__content {
+            position: absolute;
+            z-index: 1001;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            &::after {
+                content: "NIFTY NAFTY";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                width: 100%;
+                color: #fff;
+                font-size: 54px;
+                z-index: 1001;
+                font-family: $--Font-f;
+            }
+            img {
+                height: 26vh;
+                width: 100%;
+                position: relative;
+                top: 0;
+            }
+        }
+        img {
+            position: absolute;
+            bottom: -167px;
+            left: 0;
+            width: 100vw;
+            object-fit: contain;
+        }
+    }
+}

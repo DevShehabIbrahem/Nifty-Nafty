@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+@import "../../common/styles.scss";
+.Navbar {
+    background: linear-gradient(181deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 85.42%);
+    img {
+        width: 150px;
+    }
+    ul {
+        li {
+            color: rgba(255, 255, 255, 0.5);
+            transition: 0.7s all ease;
+            font-family: "Rubik", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+
+            &:hover {
+                color: #ffffff;
+                cursor: pointer;
+            }
+        }
+    }
+    button {
+        background-color: $--butons-color;
+        width: 150px;
+        height: 50px;
+        border-radius: 9.5px;
+        color: #ffffff;
+        font-family: "Rubik", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        border: 2px solid #233356;
+        transform: translate(-10px, -7px);
+        box-shadow: 5px 5px 0px 2px #000;
+        transition: 0.5s all ease-in;
+        &:hover {
+            transform: translate(0);
+            box-shadow: 0px 0px 0px 0px #000;
+        }
+    }
+}
