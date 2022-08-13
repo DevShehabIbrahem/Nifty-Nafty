@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./HeroSection.scss";
 import Navbar from "../NavBar/Navbar.jsx";
 import center from "../../asset/symbols@2x.png";

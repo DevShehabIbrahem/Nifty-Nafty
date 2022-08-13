@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.scss";
 import img1 from "../../asset/grid/img-01@x.png";
-import img2 from "../../asset/grid/img-02@2x.png";
 import img3 from "../../asset/grid/img-03@2x.png";
 import img4 from "../../asset/grid/img-04@2x.png";
 import img6 from "../../asset/grid/img-06@2x.png";

@@ -1,0 +1,50 @@
+@import "../../common/styles.scss";
+.roadmap {
+    background: url("../../asset/roadmap/space.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    h3 {
+        text-align: center;
+        padding-top: 5rem;
+        font-size: 4.5rem;
+        font-family: $--Font-f;
+        padding-bottom: 8rem;
+    }
+    .roadmap__content {
+        position: relative;
+
+        height: 100vh;
+        padding: 5rem;
+
+        img:nth-child(1) {
+            position: relative;
+            left: 9%;
+            top: -49%;
+            z-index: 100;
+            width: 85vw;
+            transition: 1s all;
+        }
+        img:nth-child(2) {
+            position: absolute;
+            top: 80%;
+            left: 35%;
+            transition: 1s all;
+        }
+        img:nth-child(3) {
+            position: absolute;
+            bottom: -70rem;
+            left: 30%;
+            z-index: 1001;
+            transition: 1s all;
+        }
+        img:nth-child(4) {
+            position: absolute;
+            width: 60px;
+            top: 0;
+            right: 1rem;
+            z-index: 1001;
+        }
+    }
+}
