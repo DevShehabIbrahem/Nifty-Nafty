@@ -1,10 +1,10 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import "./Navbar.scss";
 import logo from "../../asset/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="Navbar">
+    <div className="Navbar fixed w-full">
       <div className="flex items-center justify-between max-w-7xl m-auto py-5">
         <img src={logo} alt="logo" />
         <div className="flex items-center gap-11">
